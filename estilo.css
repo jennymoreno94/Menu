@@ -22,7 +22,6 @@ p {
     height:180px;
     border-radius:50% 50%;
     margin-left: -165px;
-    
 }
 .circle-menus::before {
     position:absolute;
