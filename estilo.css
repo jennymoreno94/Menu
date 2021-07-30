@@ -63,63 +63,56 @@ p {
           0 0  0 0.2rem rgb(229,224,224),
           0.3em 0.3em 1em rgba(0,0,0,0.3);
     float:left;
-   
-
-    /*margin-top: 63px;
-    margin-bottom: 48px;
-    margin-left: -6px;
-    margin-right: 0px*/
 }
 
 .num1 {
     border: 1px solid rgb(10 124 241);
-    margin: 63px 0px 48px -6px; 
+    margin: 66px 0px 48px -6px; 
 }
 
 .num2 {
-    /*border: 1px solid rgb(255, 5, 5);*/
     border: 1px solid rgb(32 20 212);
-    /*margin: 39px 0px 1px -4px;*/
-    margin: 33px 1px 1px 1px 
+    margin: 42px 0px 0px -4px;
 }
 
 .num3 {
     border: 1px solid rgb(190 169 26);
-    margin: 9px 0px 0px 8px;    
+    margin: 21px 0px 0px 2px;  
 }
 
 .num4 {
     border: 1px solid rgb(200 41 41);
-    margin: -4px 0px 0px 17px;    
+    margin: 4px 0px 0px 10px; 
 }
 
 .num5 {
     border: 1px solid rgb(222 19 235);
-    margin: -8px 0px 0px 20px;    
+    margin: -6px 0px 0px 16px; 
 }
 
 .num6 {
     border: 1px solid rgb(18 235 115);
-    margin: -1px 0px 0px 20px;    
+    margin: -8px 0px 0px 18px; 
 }
 
 .num7 {
     border: 1px solid rgb(89 249 20);
-    margin: 16px 0px 0px 14px;    
+    margin: 2px 0px 0px 18px;   
 }
 
 .num8 {
     border: 1px solid rgb(100 3 225);
-    margin: 37px 1px 1px 4px  
+    margin: 18px 0px 0px 11px; 
 }
+
 .num9 {
     border: 1px solid rgb(32 20 212);
-    margin: 62px -15px 0px -2px 
+    margin: 39px -1px 0px 3px;
 }
 
 .num10 {
     border: 1px solid rgb(32 20 212);
-    margin: 62px -15px 0px -2px 
+    margin: 66px -14px 0px -3px;
 }
 
 
