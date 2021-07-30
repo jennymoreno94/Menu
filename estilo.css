@@ -1,3 +1,6 @@
+.circulo-completo {
+    margin: 100px;
+}
 .circle-menu {
     position: relative;
     width: 150px;
@@ -8,7 +11,7 @@
           0 0  0 0.5rem rgb(182, 179, 179),
           0.3em 0.3em 1em rgba(0,0,0,0.3);
     float:left;
-    z-index: 1;
+    z-index: 3;
     margin: 14px;
 }
 p {
@@ -16,13 +19,15 @@ p {
     text-align: center;
 }
 .circle-menus {
-    display: inline-block;
+    position: relative;
     background-color:gray;
     width:180px;
     height:180px;
     border-radius:50% 50%;
     margin-left: -165px;
-    z-index: 1;
+    float:left;
+    z-index: 2;
+
 }
 .circle-menus::before {
     position:absolute;
@@ -115,5 +120,42 @@ p {
     margin: 66px -14px 0px -3px;
 }
 
+.circle-punto {
+    position: relative;
+    width:212px;
+    height:180px;
+    border-radius:50% 50%;
+    margin-left: -177px;
+    border:2px dotted gray;
+    float:left;
+    z-index: 1;
 
+}
+.circle-punto::before {
+    position:absolute;
+    content:"";
+    top:1%;
+    left:1%;
+    background-color:#fff;
+    height:98%;
+    width:98%;
+    border-radius:50% 50%;
+
+   
+}
+.circle-punto::after {
+    position:absolute;
+    content:"";
+    height:50%;
+    background-color:rgb(255, 255, 255);
+    border:1px dotted #fff;
+    top:57%;
+    left:0;
+    width:100%;
+   
+}
+
+.circle-punto.derecha {
+    transform:rotate(90deg);
+}
 
