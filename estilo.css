@@ -159,3 +159,82 @@ p {
     transform:rotate(90deg);
 }
 
+.linea {
+    width: 112px;
+    height: 47px;
+    border-bottom: 1px solid rgb(68, 66, 66);
+    position: absolute;
+
+}
+
+.linea1,
+.linea4,
+.linea5 {
+    transform:
+    translateY(-46px)
+        translateX(-113px)
+        rotate(224deg);
+}
+
+.linea2 {
+    transform:
+    translateY(-46px)
+    translateX(-113px)
+    rotate(224deg);
+}
+
+.linea3 {
+    transform:
+    translateY(-46px)
+        translateX(-113px)
+        rotate(224deg);
+}
+
+.linea4 {
+    transform:
+    translateY(-46px)
+        translateX(-113px)
+        rotate(224deg);
+}
+
+.linea5 {
+    transform:
+    translateY(-70px)
+        translateX(-95px)
+        rotate(249deg);
+}
+
+.linea6 {
+    transform:
+    translateY(-78px)
+        translateX(-78px)
+        rotate(266deg);
+}
+
+.linea7 {
+    transform:
+    translateY(-85px)
+        translateX(-42px)
+        rotate(298deg);
+}
+
+.linea8 {
+    transform:
+    translateY(-85px)
+        translateX(-42px)
+        rotate(298deg);
+}
+
+.linea9 {
+    transform:
+    translateY(-85px)
+        translateX(-42px)
+        rotate(298deg);
+}
+
+.linea10 {
+    transform:
+    translateY(-85px)
+        translateX(-42px)
+        rotate(298deg);
+}
