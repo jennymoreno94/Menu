@@ -14,6 +14,14 @@ function Menu() {
         boton.classList.add("boton-agrupado")
         boton.classList.add(`btn${i+1}`)
 
+        let spanRombo =document.createElement("span")
+        spanRombo.classList.add("rombo")
+        spanRombo.classList.add(`span${i+1}`)
+
+        let h3Rombo =document.createElement("h3")
+        h3Rombo.classList.add("text")
+        
+
         let link =document.createElement("a")
         link.classList.add("button-href")
         link.classList.add(`href${i+1}`)
@@ -29,10 +37,14 @@ function Menu() {
         circulo.appendChild(circuloPequeno)
         circuloPequeno.appendChild(linea)
         circuloPequeno.appendChild(boton)
+        boton.appendChild(spanRombo)
         boton.appendChild(link)
         boton.appendChild(span)
         link.appendChild(h3)
+        spanRombo.appendChild(h3Rombo)
         h3.append(textoFinal);
+        h3Rombo.append(i+1);
+
 
     }   
 }
