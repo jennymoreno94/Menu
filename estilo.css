@@ -214,3 +214,80 @@ p {
     display:inline-block;
 }
 
+.linea {
+    width: 112px;
+    height: 47px;
+    border-bottom: 1px solid rgb(68, 66, 66);
+    position: absolute;
+
+}
+
+.linea1 {
+    transform:
+    translateY(-33px)
+    translateX(-114px)
+    rotate(214deg);
+}
+
+.linea2 {
+    transform:
+    translateY(-45px)
+    translateX(-111px)
+    rotate(224deg);
+}
+
+.linea3 {
+    transform:
+    translateY(-57px)
+        translateX(-106px)
+        rotate(236deg);
+}
+
+.linea4 {
+    transform:
+    translateY(-66px) 
+    translateX(-96px) 
+    rotate(248deg);
+}
+
+.linea5 {
+    transform:
+    translateY(-77px)
+        translateX(-84px)
+        rotate(261deg);
+}
+
+.linea6 {
+    transform:
+    translateY(-82px)
+        translateX(-74px)
+        rotate(270deg);
+}
+
+.linea7 {
+    transform:
+    translateY(-85px)
+        translateX(-61px)
+        rotate(282deg);
+}
+
+.linea8 {
+    transform:
+    translateY(-84px)
+        translateX(-50px)
+        rotate(291deg);
+}
+
+.linea9 {
+    transform:
+    translateY(-80px)
+        translateX(-28px)
+        rotate(311deg);
+}
+
+.linea10 {
+    transform:
+    translateY(-72px)
+        translateX(-13px)
+        rotate(325deg);
+}
