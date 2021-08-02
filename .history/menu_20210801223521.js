@@ -76,7 +76,9 @@ function texto(num) {
         case 10: texto='LIBROS DE SUPERACIÓN'
         break;
     }
+
     return texto
+
 }
 
 function cambiocolor(num) {
@@ -103,7 +105,9 @@ function cambiocolor(num) {
         case 10: color='orange'
         break;
     }
+
     return color
+
 }
 
 

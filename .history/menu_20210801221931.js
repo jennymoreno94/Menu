@@ -14,25 +14,26 @@ function Menu() {
         boton.classList.add("boton-agrupado")
         boton.classList.add(`btn${i+1}`)
 
-        let color=cambiocolor(i+1)
-
         let spanRombo =document.createElement("span")
         spanRombo.classList.add("rombo")
         spanRombo.classList.add(`span${i+1}`)
-        spanRombo.style.setProperty(`background`, color);
 
         let h3Rombo =document.createElement("h3")
         h3Rombo.classList.add("text")
         
+
         let link =document.createElement("a")
         link.classList.add("button-href")
         link.classList.add(`color${i+1}`)
+        let color=cambiocolor(i+1)
         link.style.setProperty(`background`, color);
+
 
         let span =document.createElement("span")
         span.classList.add("flecha")
         span.classList.add(`span${i+1}`)
         span.style.setProperty(`border-left`,`34px solid ${color}`);
+
 
         let h3 =document.createElement("h3")
         h3.classList.add("texto")
@@ -48,6 +49,8 @@ function Menu() {
         spanRombo.appendChild(h3Rombo)
         h3.append(textoFinal);
         h3Rombo.append(i+1);
+
+
     }   
 }
 
@@ -76,36 +79,10 @@ function texto(num) {
         case 10: texto='LIBROS DE SUPERACIÓN'
         break;
     }
+
     return texto
-}
 
-function cambiocolor(num) {
-    let color = ''
-    switch (num) {
-        case 1: color='rgb(166, 205, 241)' 
-        break;
-        case 2: color='blue' 
-        break;
-        case 3: color='orange'
-        break;
-        case 4: color='green'
-        break;
-        case 5: color='red'
-        break;
-        case 6: color='pink' 
-        break;
-        case 7: color='green' 
-        break;
-        case 8: color='purple' 
-        break;
-        case 9: color='pink' 
-        break;
-        case 10: color='orange'
-        break;
-    }
-    return color
 }
-
 
 
 
