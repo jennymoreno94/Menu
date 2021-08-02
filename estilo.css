@@ -49,7 +49,6 @@ p {
     content: "";
     height: 50%;
     background-color: rgb(255, 255, 255);
-    border: 1px solid #fff;
     top: 50%;
     left: 0;
     width: 100%;
@@ -150,7 +149,6 @@ p {
     content: "";
     height: 50%;
     background-color: rgb(255, 255, 255);
-    border: 1px dotted #fff;
     top: 57%;
     left: 0;
     width: 100%;
