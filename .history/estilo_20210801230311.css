@@ -1,3 +1,5 @@
+
+
 .circulo-completo {
     margin: 250px;
 }
@@ -235,7 +237,6 @@ p {
     transform: translateY(-263px) translateX(-3px) rotate(630deg);
 }
 
-
 .linea {
     position: relative;
     width: 112px;
@@ -243,76 +244,38 @@ p {
     border-bottom: 1px solid rgb(68, 66, 66);
     float: left;
     z-index: 4;
-    transform: translateY(4px) translateX(-168px) rotate(181deg);
 }
 
-.punto {
-    position: relative;
-    width: 4px;
-    height: 4px;
+.linea::after {
     border-radius: 50%;
-    float: left;
-    background: rgb(68, 66, 66);;
-    border: 1px solid rgb(68, 66, 66);;
-    z-index: 4;
 }
-
-
 
 .linea1 {
-    transform: translateY(5px) translateX(-168px) rotate(179deg);
+    transform: translateY(4px) translateX(-168px) rotate(181deg);
     width: 168px;
 }
-
-.punto1{
-    transform: translateY(-43px) translateX(-174px) rotate(181deg);
-}
-
 
 .linea2 {
     transform: translateY(-4px) translateX(-143px) rotate(186deg);
     width: 140px;
 }
 
-.punto2 {
-    transform: translateY(-61px) translateX(-142px) rotate(186deg);
-}
-
 .linea3 {
     transform: translateY(-30px) translateX(-115px) rotate(210deg);
-    width: 111px;
-}
-
-.punto3 {
-    transform: translateY(-105px) translateX(-99px) rotate(210deg);
+    width: 110px;
 }
 
 .linea4 {
-    transform: translateY(-54px) translateX(-98px) rotate(236deg);
-    width: 104px;
-}
-
-.punto4 {
-    transform: translateY(-138px) translateX(-59px) rotate(236deg);
+    transform: translateY(-57px) translateX(-105px) rotate(236deg);
 }
 
 .linea5 {
-    transform: translateY(-68px) translateX(-88px) rotate(252deg);
-    width: 106px;
+    transform: translateY(-72px) translateX(-91px) rotate(254deg);
 }
-
-.punto5 {
-    transform: translateY(-154px) translateX(-33px) rotate(254deg);
-}
-
 
 .linea6 {
-    transform: translateY(-72px) translateX(-64px) rotate(270deg);
-    width: 95px;
-}
-
-.punto6 {
-    transform: translateY(-148px) translateX(4px) rotate(270deg);
+    transform: translateY(-76px) translateX(-67px) rotate(270deg);
+    width: 100px;
 }
 
 .linea7 {
@@ -320,34 +283,18 @@ p {
     width: 118px;
 }
 
-.punto7 {
-    transform: translateY(-161px) translateX(48px) rotate(291deg);
-}
-
 .linea8 {
-    transform: translateY(-75px) translateX(-20px) rotate(318deg);
-    width: 107px;
-}
-
-.punto8 {
-    transform: translateY(-121px) translateX(86px) rotate(318deg);
+    transform: translateY(-77px) translateX(-21px) rotate(318deg);
 }
 
 .linea9 {
     transform: translateY(-11px) translateX(12px) rotate(169deg);
-    width: 139px;
+    width: 140px;
 }
-
-.punto9 {
-    transform: translateY(-74px) translateX(141px) rotate(169deg);}
 
 .linea10 {
     transform: translateY(-41px) translateX(11px) rotate(361deg);
     width: 168px;
-}
-
-.punto10 {
-    transform: translateY(-43px) translateX(175px) rotate(361deg);
 }
 
 .text {

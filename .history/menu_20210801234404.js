@@ -42,7 +42,6 @@ function Menu() {
 
         circulo.appendChild(circuloPequeno)
         circuloPequeno.appendChild(linea)
-        circuloPequeno.appendChild(punto)
         circuloPequeno.appendChild(boton)
         boton.appendChild(spanRombo)
         boton.appendChild(link)

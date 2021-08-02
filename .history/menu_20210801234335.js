@@ -10,11 +10,6 @@ function Menu() {
         linea.classList.add("linea")
         linea.classList.add(`linea${i+1}`)
 
-        let punto = document.createElement("div")
-        punto.classList.add("punto")
-        punto.classList.add(`punto${i+1}`)
-
-
         let boton = document.createElement("div")
         boton.classList.add("boton-agrupado")
         boton.classList.add(`btn${i+1}`)
@@ -42,7 +37,6 @@ function Menu() {
 
         circulo.appendChild(circuloPequeno)
         circuloPequeno.appendChild(linea)
-        circuloPequeno.appendChild(punto)
         circuloPequeno.appendChild(boton)
         boton.appendChild(spanRombo)
         boton.appendChild(link)

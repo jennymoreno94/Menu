@@ -8,12 +8,9 @@ function Menu() {
 
         let linea = document.createElement("div")
         linea.classList.add("linea")
-        linea.classList.add(`linea${i+1}`)
-
-        let punto = document.createElement("div")
-        punto.classList.add("punto")
-        punto.classList.add(`punto${i+1}`)
-
+        
+        let lineaPunto = document.createElement("div")
+        lineaPunto.classList.add(`linea${i+1}`)
 
         let boton = document.createElement("div")
         boton.classList.add("boton-agrupado")
@@ -23,6 +20,7 @@ function Menu() {
 
         let spanRombo =document.createElement("span")
         spanRombo.classList.add("rombo")
+        spanRombo.classList.add(`span${i+1}`)
         spanRombo.style.setProperty(`background`, color);
 
         let h3Rombo =document.createElement("h3")
@@ -30,10 +28,12 @@ function Menu() {
         
         let link =document.createElement("a")
         link.classList.add("button-href")
+        link.classList.add(`color${i+1}`)
         link.style.setProperty(`background`, color);
 
         let span =document.createElement("span")
         span.classList.add("flecha")
+        span.classList.add(`span${i+1}`)
         span.style.setProperty(`border-left`,`34px solid ${color}`);
 
         let h3 =document.createElement("h3")
@@ -42,7 +42,7 @@ function Menu() {
 
         circulo.appendChild(circuloPequeno)
         circuloPequeno.appendChild(linea)
-        circuloPequeno.appendChild(punto)
+        linea.appendChild(lineaPunto)
         circuloPequeno.appendChild(boton)
         boton.appendChild(spanRombo)
         boton.appendChild(link)

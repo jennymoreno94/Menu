@@ -1,3 +1,5 @@
+
+
 .circulo-completo {
     margin: 250px;
 }
@@ -280,7 +282,7 @@ p {
 
 .linea3 {
     transform: translateY(-30px) translateX(-115px) rotate(210deg);
-    width: 111px;
+    width: 110px;
 }
 
 .punto3 {
@@ -307,12 +309,8 @@ p {
 
 
 .linea6 {
-    transform: translateY(-72px) translateX(-64px) rotate(270deg);
-    width: 95px;
-}
-
-.punto6 {
-    transform: translateY(-148px) translateX(4px) rotate(270deg);
+    transform: translateY(-76px) translateX(-67px) rotate(270deg);
+    width: 100px;
 }
 
 .linea7 {
@@ -320,34 +318,18 @@ p {
     width: 118px;
 }
 
-.punto7 {
-    transform: translateY(-161px) translateX(48px) rotate(291deg);
-}
-
 .linea8 {
-    transform: translateY(-75px) translateX(-20px) rotate(318deg);
-    width: 107px;
-}
-
-.punto8 {
-    transform: translateY(-121px) translateX(86px) rotate(318deg);
+    transform: translateY(-77px) translateX(-21px) rotate(318deg);
 }
 
 .linea9 {
     transform: translateY(-11px) translateX(12px) rotate(169deg);
-    width: 139px;
+    width: 140px;
 }
-
-.punto9 {
-    transform: translateY(-74px) translateX(141px) rotate(169deg);}
 
 .linea10 {
     transform: translateY(-41px) translateX(11px) rotate(361deg);
     width: 168px;
-}
-
-.punto10 {
-    transform: translateY(-43px) translateX(175px) rotate(361deg);
 }
 
 .text {

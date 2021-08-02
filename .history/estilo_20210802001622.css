@@ -1,3 +1,5 @@
+
+
 .circulo-completo {
     margin: 250px;
 }
@@ -335,7 +337,7 @@ p {
 
 .linea9 {
     transform: translateY(-11px) translateX(12px) rotate(169deg);
-    width: 139px;
+    width: 140px;
 }
 
 .punto9 {
