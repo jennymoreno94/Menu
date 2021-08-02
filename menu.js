@@ -109,7 +109,4 @@ function cambiocolor(num) {
     return color
 }
 
-
-
-
 document.onload = Menu()

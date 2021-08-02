@@ -60,7 +60,7 @@ p {
 }
 
 .circulo-pequeno {
-    position: relative;
+    position: absolute;
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -74,54 +74,49 @@ p {
     margin: 66px 0px 48px -6px;
 }
 
-.num::after {
-    height: 1px;
-    background-color: red;
-}
-
 .num2 {
     border: 1px solid rgb(32 20 212);
-    margin: 42px 0px 0px -4px;
+    margin: 42px 0px 0px 2px;
 }
 
 .num3 {
     border: 1px solid rgb(190 169 26);
-    margin: 21px 0px 0px 2px;
+    margin: 21px 0px 0px 17px;
 }
 
 .num4 {
     border: 1px solid rgb(200 41 41);
-    margin: 4px 0px 0px 10px;
+    margin: 4px 0px 0px 40px;
 }
 
 .num5 {
     border: 1px solid rgb(222 19 235);
-    margin: -6px 0px 0px 16px;
+    margin: -6px 0px 0px 68px;
 }
 
 .num6 {
     border: 1px solid rgb(18 235 115);
-    margin: -8px 0px 0px 18px;
+    margin: -8px 0px 0px 98px;
 }
 
 .num7 {
     border: 1px solid rgb(89 249 20);
-    margin: 2px 0px 0px 18px;
+    margin: 2px 0px 0px 125px;
 }
 
 .num8 {
     border: 1px solid rgb(100 3 225);
-    margin: 18px 0px 0px 11px;
+    margin: 18px 0px 0px 147px;
 }
 
 .num9 {
     border: 1px solid rgb(32 20 212);
-    margin: 39px -1px 0px 3px;
+    margin: 39px -1px 0px 163px;
 }
 
 .num10 {
     border: 1px solid rgb(32 20 212);
-    margin: 66px -14px 0px -3px;
+    margin: 66px -14px 0px 173px;
 }
 
 .circle-punto {
@@ -161,13 +156,13 @@ p {
 }
 
 .boton-agrupado {
-    position: relative;
+    position: absolute;
     float: left;
     z-index: 3;
 }
 
 .button-href {
-    position: relative;
+    position: absolute;
     width: 400px;
     height: 36px;
     background: white;
@@ -184,7 +179,7 @@ p {
     border-left: 34px solid white;    
     border-top: 18px solid transparent;
     border-bottom: 18px solid transparent;
-    margin-left: -1px;
+    margin-left: 399PX;
 }
 
 .texto {
@@ -196,48 +191,48 @@ p {
 }
 
 .btn1 {
-    transform: translateY(-268px) translateX(-391px) rotate(630deg);
+    transform: translateY(3px) translateX(-208PX) rotate(630deg);
 }
 
 .btn2 {
-    transform: translateY(-307px) translateX(-339px) rotate(630deg);
+    transform: translateY(-35px) translateX(-156px) rotate(630deg);
 }
 
 .btn3 {
-    transform: translateY(-348px) translateX(-294px) rotate(630deg);
+    transform: translateY(-80px) translateX(-115px) rotate(630deg);
 }
 
 .btn4 {
-    transform: translateY(-382px) translateX(-258px) rotate(630deg);
+    transform: translateY(-111px) translateX(-76px) rotate(630deg);
 }
 
 .btn5 {
-    transform: translateY(-401px) translateX(-228px) rotate(630deg);
+    transform: translateY(-129px) translateX(-46px) rotate(630deg);
 }
 
 .btn6 {
-    transform: translateY(-393px) translateX(-192px) rotate(630deg);
+    transform: translateY(-122px) translateX(-11px) rotate(630deg);
 }
 
 .btn7 {
-    transform: translateY(-403px) translateX(-150px) rotate(630deg);
+    transform: translateY(-134px) translateX(35px) rotate(630deg);
 }
 
 .btn8 {
-    transform: translateY(-365px) translateX(-111px) rotate(630deg);
+    transform: translateY(-96px) translateX(72px) rotate(630deg);
 }
 
 .btn9 {
-    transform: translateY(-316px) translateX(-58px) rotate(630deg);
+    transform: translateY(-46px) translateX(125px) rotate(630deg);
 }
 
 .btn10 {
-    transform: translateY(-263px) translateX(-3px) rotate(630deg);
+    transform: translateY(4px) translateX(182px) rotate(630deg);
 }
 
 
 .linea {
-    position: relative;
+    position: absolute;
     width: 112px;
     height: 47px;
     border-bottom: 1px solid rgb(68, 66, 66);
@@ -247,7 +242,7 @@ p {
 }
 
 .punto {
-    position: relative;
+    position: absolute;
     width: 4px;
     height: 4px;
     border-radius: 50%;
@@ -265,7 +260,7 @@ p {
 }
 
 .punto1{
-    transform: translateY(-43px) translateX(-174px) rotate(181deg);
+    transform: translateY(4px) translateX(-171px) rotate(181deg);
 }
 
 
@@ -275,7 +270,7 @@ p {
 }
 
 .punto2 {
-    transform: translateY(-61px) translateX(-142px) rotate(186deg);
+    transform: translateY(-13px) translateX(-142px) rotate(186deg);
 }
 
 .linea3 {
@@ -284,7 +279,7 @@ p {
 }
 
 .punto3 {
-    transform: translateY(-105px) translateX(-99px) rotate(210deg);
+    transform: translateY(-57px) translateX(-99px) rotate(210deg);
 }
 
 .linea4 {
@@ -293,7 +288,7 @@ p {
 }
 
 .punto4 {
-    transform: translateY(-138px) translateX(-59px) rotate(236deg);
+    transform: translateY(-89px) translateX(-59px) rotate(236deg);
 }
 
 .linea5 {
@@ -302,7 +297,7 @@ p {
 }
 
 .punto5 {
-    transform: translateY(-154px) translateX(-33px) rotate(254deg);
+    transform: translateY(-106px) translateX(-33px) rotate(254deg);
 }
 
 
@@ -312,7 +307,7 @@ p {
 }
 
 .punto6 {
-    transform: translateY(-148px) translateX(4px) rotate(270deg);
+    transform: translateY(-100px) translateX(4px) rotate(270deg);
 }
 
 .linea7 {
@@ -321,7 +316,7 @@ p {
 }
 
 .punto7 {
-    transform: translateY(-161px) translateX(48px) rotate(291deg);
+    transform: translateY(-112px) translateX(48px) rotate(291deg);
 }
 
 .linea8 {
@@ -330,7 +325,7 @@ p {
 }
 
 .punto8 {
-    transform: translateY(-121px) translateX(86px) rotate(318deg);
+    transform: translateY(-73px) translateX(86px) rotate(318deg);
 }
 
 .linea9 {
@@ -339,7 +334,7 @@ p {
 }
 
 .punto9 {
-    transform: translateY(-74px) translateX(141px) rotate(169deg);}
+    transform: translateY(-26px) translateX(141px) rotate(169deg);}
 
 .linea10 {
     transform: translateY(-41px) translateX(11px) rotate(361deg);
@@ -347,7 +342,7 @@ p {
 }
 
 .punto10 {
-    transform: translateY(-43px) translateX(175px) rotate(361deg);
+    transform: translateY(5px) translateX(175px) rotate(361deg);
 }
 
 .text {
