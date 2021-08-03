@@ -19,20 +19,21 @@ function Menu() {
         let spanRombo =document.createElement("span")
         spanRombo.classList.add("rombo")
         spanRombo.classList.add(`span${i+1}`)
-        spanRombo.style.setProperty(`background`, color);
-
+        spanRombo.classList.add(`class-color${i+1}`)
+        spanRombo.style.setProperty(`background`, `var(--background${i+1})`);
         let h3Rombo =document.createElement("h3")
         h3Rombo.classList.add("text")
-        
         let link =document.createElement("a")
         link.classList.add("button-href")
         link.classList.add(`color${i+1}`)
-        link.style.setProperty(`background`, color);
-
+        link.classList.add(`class-color`)
+        link.style.setProperty(`background`, `var(--background${i+1})`);
+        document.documentElement.setAttribute('color1', `${i+1}`)
         let span =document.createElement("span")
         span.classList.add("flecha")
         span.classList.add(`span${i+1}`)
-        span.style.setProperty(`border-left`,`34px solid ${color}`);
+        span.classList.add(`classborder`)
+        span.style.setProperty(`border-left`,`34px solid var(--borderleft${i+1})`);
 
         let h3 =document.createElement("h3")
         h3.classList.add("texto")
@@ -46,8 +47,8 @@ function Menu() {
         boton.appendChild(span)
         link.appendChild(h3)
         spanRombo.appendChild(h3Rombo)
-        h3.append(textoFinal);
-        h3Rombo.append(i+1);
+        h3.innerHTML = textoFinal;
+        h3Rombo.innerHTML = i+1;
     }   
 }
 
@@ -79,34 +80,33 @@ function texto(num) {
     return texto
 }
 
+
+
 function cambiocolor(num) {
     let color = ''
     switch (num) {
-        case 1: color='rgb(166, 205, 241)' 
+        case 1: color='rgba(0,118,190,1) 52%, rgba(1,155,225,1) 74%)' 
         break;
-        case 2: color='blue' 
+        case 2: color='rgba(0,118,190,1) 52%, rgba(1,155,225,1) 74%)' 
         break;
-        case 3: color='orange'
+        case 3: color='rgba(0,118,190,1) 52%, rgba(1,155,225,1) 74%)'
         break;
-        case 4: color='green'
+        case 4: color='rgba(0,118,190,1) 52%, rgba(1,155,225,1) 74%)'
         break;
-        case 5: color='red'
+        case 5: color='rgba(0,118,190,1) 52%, rgba(1,155,225,1) 74%)'
         break;
-        case 6: color='pink' 
+        case 6: color='rgba(0,118,190,1) 52%, rgba(1,155,225,1) 74%)' 
         break;
-        case 7: color='green' 
+        case 7: color='rgba(0,118,190,1) 52%, rgba(1,155,225,1) 74%)' 
         break;
-        case 8: color='purple' 
+        case 8: color='rgba(0,118,190,1) 52%, rgba(1,155,225,1) 74%)' 
         break;
-        case 9: color='pink' 
+        case 9: color='rgba(0,118,190,1) 52%, rgba(1,155,225,1) 74%)' 
         break;
-        case 10: color='orange'
+        case 10: color='rgba(0,118,190,1) 52%, rgba(1,155,225,1) 74%)'
         break;
     }
     return color
 }
-
-
-
 
 document.onload = Menu()

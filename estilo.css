@@ -1,4 +1,13 @@
 
+:root {
+    --background1:linear-gradient(140deg,rgba(0,118,190,1) 60%, rgba(1,155,225,1) 74%);
+    --borderleft1 : rgba(1,155,225,1);
+    --background2:red;
+    --borderleft2 : red;
+    --background3:pink;
+    --borderleft3 : pink
+}
+
 
 .circulo-completo {
     margin: 250px;
@@ -183,13 +192,18 @@ p {
 .flecha {
     position: absolute;
     content: "";
-    border-left: 34px solid white;    
+    border-left: 34px solid rgb(48, 37, 45);
     border-top: 18px solid transparent;
     border-bottom: 18px solid transparent;
     margin-left: -1px;
+    border-left: 34px solid ;
+
+   
+    
 }
 
 .texto {
+    content: "hola";
     margin-left: 30px;
     margin-top: 9px;
     font-size: 17px;
@@ -321,4 +335,13 @@ p {
     margin-left: -27px;
     margin-top: -6px;
     z-index: 1;
+}
+
+.class-color
+{
+    background:var(--background1) 
+}
+
+.classborder {
+    border-left: 34px solid var(--borderleft1)  
 }
