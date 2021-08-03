@@ -10,6 +10,11 @@ function Menu() {
         linea.classList.add("linea")
         linea.classList.add(`linea${i+1}`)
 
+        let punto = document.createElement("div");
+        punto.classList.add("punto");
+        punto.classList.add(`punto${i + 1}`);
+
+        
         let boton = document.createElement("div")
         boton.classList.add("boton-agrupado")
         boton.classList.add(`btn${i+1}`)
@@ -28,7 +33,7 @@ function Menu() {
         link.classList.add(`color${i+1}`)
         link.classList.add(`class-color`)
         link.style.setProperty(`background`, `var(--background${i+1})`);
-        document.documentElement.setAttribute('color1', `${i+1}`)
+        
         let span =document.createElement("span")
         span.classList.add("flecha")
         span.classList.add(`span${i+1}`)
@@ -41,6 +46,7 @@ function Menu() {
 
         circulo.appendChild(circuloPequeno)
         circuloPequeno.appendChild(linea)
+        circuloPequeno.appendChild(punto);
         circuloPequeno.appendChild(boton)
         boton.appendChild(spanRombo)
         boton.appendChild(link)
@@ -52,32 +58,41 @@ function Menu() {
     }   
 }
 
-
 function texto(num) {
-    let texto = ''
-    switch (num) {
-        case 1: texto='TEMARIO' 
-        break;
-        case 2: texto='SISTEMA EXPLICATIVO' 
-        break;
-        case 3: texto='SISTEMA EVALUATIVO'
-        break;
-        case 4: texto='COSTOS ECONÓMICOS'
-        break;
-        case 5: texto='ESTUDIE EN CUALQUIER DISPOSITIVO'
-        break;
-        case 6: texto='NUESTROS BENEFICIOS' 
-        break;
-        case 7: texto='ADQUIÉRELO CON FACILIDAD' 
-        break;
-        case 8: texto='A TU DISPOSICIÓN EN MINUTOS' 
-        break;
-        case 9: texto='MATEMÁTICAS INTERACTIVAS PARA NIÑOS' 
-        break;
-        case 10: texto='LIBROS DE SUPERACIÓN'
-        break;
-    }
-    return texto
+  let texto = "";
+  switch (num) {
+    case 1:
+      texto = "TEMARIO";
+      break;
+    case 2:
+      texto = "SISTEMA EXPLICATIVO";
+      break;
+    case 3:
+      texto = "SISTEMA EVALUATIVO";
+      break;
+    case 4:
+      texto = "COSTOS ECONÓMICOS";
+      break;
+    case 5:
+      texto = "ESTUDIE EN CUALQUIER DISPOSITIVO";
+      break;
+    case 6:
+      texto = "NUESTROS BENEFICIOS";
+      break;
+    case 7:
+      texto = "ADQUIÉRELO CON FACILIDAD";
+      break;
+    case 8:
+      texto = "A TU DISPOSICIÓN EN MINUTOS";
+      break;
+    case 9:
+      texto = "MATEMÁTICAS INTERACTIVAS PARA NIÑOS";
+      break;
+    case 10:
+      texto = "LIBROS DE SUPERACIÓN";
+      break;
+  }
+  return texto;
 }
 
 
