@@ -1,5 +1,18 @@
 let circulo = document.getElementById("circulo");
 
+let TituloBoton = Object.freeze({
+    titulo1:"TEMARIO",
+    titulo2:"SISTEMA EXPLICATIVO",
+    titulo3:"SISTEMA EVALUATIVO",
+    titulo4:"COSTOS ECONÓMICOS",
+    titulo5:"ESTUDIE EN CUALQUIER DISPOSITIVO",
+    titulo6:"NUESTROS BENEFICIOS",
+    titulo7:"ADQUIÉRELO CON FACILIDAD",
+    titulo8:"A TU DISPOSICIÓN EN MINUTOS",
+    titulo9:"MATEMÁTICAS INTERACTIVAS PARA NIÑOS",
+    titulo10:"LIBROS DE SUPERACIÓN"
+})
+
 function Menu() {
     for (i = 0; i < 10 ; i++ ) {
         let circuloPequeno = document.createElement("div")
@@ -36,8 +49,7 @@ function Menu() {
 
         let h3 =document.createElement("h3")
         h3.classList.add("texto")
-        let textoFinal = texto(i+1)
-
+     
         circulo.appendChild(circuloPequeno)
         circuloPequeno.appendChild(linea)
         circuloPequeno.appendChild(punto);
@@ -47,46 +59,9 @@ function Menu() {
         boton.appendChild(span)
         link.appendChild(h3)
         spanRombo.appendChild(h3Rombo)
-        h3.innerHTML = textoFinal;
+        h3.innerHTML = TituloBoton[`titulo${i+1}`];
         h3Rombo.innerHTML = i+1;
     }   
-}
-
-function texto(num) {
-  let texto = "";
-  switch (num) {
-    case 1:
-      texto = "TEMARIO";
-      break;
-    case 2:
-      texto = "SISTEMA EXPLICATIVO";
-      break;
-    case 3:
-      texto = "SISTEMA EVALUATIVO";
-      break;
-    case 4:
-      texto = "COSTOS ECONÓMICOS";
-      break;
-    case 5:
-      texto = "ESTUDIE EN CUALQUIER DISPOSITIVO";
-      break;
-    case 6:
-      texto = "NUESTROS BENEFICIOS";
-      break;
-    case 7:
-      texto = "ADQUIÉRELO CON FACILIDAD";
-      break;
-    case 8:
-      texto = "A TU DISPOSICIÓN EN MINUTOS";
-      break;
-    case 9:
-      texto = "MATEMÁTICAS INTERACTIVAS PARA NIÑOS";
-      break;
-    case 10:
-      texto = "LIBROS DE SUPERACIÓN";
-      break;
-  }
-  return texto;
 }
 
 document.onload = Menu()
