@@ -1,13 +1,4 @@
-
-:root {
-    --background1:linear-gradient(140deg,rgba(0,118,190,1) 60%, rgba(1,155,225,1) 74%);
-    --borderleft1 : rgba(1,155,225,1);
-    --background2:red;
-    --borderleft2 : red;
-    --background3:pink;
-    --borderleft3 : pink
-}
-
+@import 'propiedades.css'; 
 
 .circulo-completo {
   margin: 250px;

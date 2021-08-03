@@ -13,14 +13,9 @@ function Menu() {
         let punto = document.createElement("div");
         punto.classList.add("punto");
         punto.classList.add(`punto${i + 1}`);
-
-        
         let boton = document.createElement("div")
         boton.classList.add("boton-agrupado")
         boton.classList.add(`btn${i+1}`)
-
-        let color=cambiocolor(i+1)
-
         let spanRombo =document.createElement("span")
         spanRombo.classList.add("rombo")
         spanRombo.classList.add(`span${i+1}`)
@@ -93,35 +88,6 @@ function texto(num) {
       break;
   }
   return texto;
-}
-
-
-
-function cambiocolor(num) {
-    let color = ''
-    switch (num) {
-        case 1: color='rgba(0,118,190,1) 52%, rgba(1,155,225,1) 74%)' 
-        break;
-        case 2: color='rgba(0,118,190,1) 52%, rgba(1,155,225,1) 74%)' 
-        break;
-        case 3: color='rgba(0,118,190,1) 52%, rgba(1,155,225,1) 74%)'
-        break;
-        case 4: color='rgba(0,118,190,1) 52%, rgba(1,155,225,1) 74%)'
-        break;
-        case 5: color='rgba(0,118,190,1) 52%, rgba(1,155,225,1) 74%)'
-        break;
-        case 6: color='rgba(0,118,190,1) 52%, rgba(1,155,225,1) 74%)' 
-        break;
-        case 7: color='rgba(0,118,190,1) 52%, rgba(1,155,225,1) 74%)' 
-        break;
-        case 8: color='rgba(0,118,190,1) 52%, rgba(1,155,225,1) 74%)' 
-        break;
-        case 9: color='rgba(0,118,190,1) 52%, rgba(1,155,225,1) 74%)' 
-        break;
-        case 10: color='rgba(0,118,190,1) 52%, rgba(1,155,225,1) 74%)'
-        break;
-    }
-    return color
 }
 
 document.onload = Menu()

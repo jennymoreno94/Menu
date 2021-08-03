@@ -1,0 +1,25 @@
+:root {
+    /*BackGround Colors*/
+    --background1:linear-gradient(140deg,rgba(0,118,190,1) 60%, rgba(1,155,225,1) 74%);
+    --background2:linear-gradient(140deg,rgba(42,53,135,1) 60%, rgba(28,103,176,1) 74%);
+    --background3:linear-gradient(140deg,rgba(244,165,48,1) 60%, rgba(246,202,69,1) 74%);
+    --background4:linear-gradient(140deg,rgba(228,50,20,1) 60%, rgba(231,87,15,1) 74%);
+    --background5:linear-gradient(140deg,rgba(153,40,120,1) 60%, rgba(221,99,160,1) 74%);
+    --background6:linear-gradient(140deg,rgba(13,143,134,1) 60%, rgba(84,186,175,1) 74%);
+    --background7:linear-gradient(140deg,rgba(203,213,55,1) 60%, rgba(116,184,73,1) 74%);
+    --background8:linear-gradient(140deg,rgba(52,45,99,1) 60%, rgba(97,36,129,1) 74%);
+    --background9:linear-gradient(140deg,rgba(231,77,43,1) 60%, rgba(242,150,37,1) 74%);
+    --background10:linear-gradient(140deg,rgba(0,118,190,1) 60%, rgba(1,155,225,1) 74%);
+  
+     /*Border Colors*/
+     --borderleft1 : rgba(1,155,225,1);
+     --borderleft2 : rgba(28,103,176,1);
+     --borderleft3 : rgba(246,202,69,1);
+     --borderleft4 : rgba(231,87,15,1);
+     --borderleft5 : rgba(221,99,160,1);
+     --borderleft6 : rgba(84,186,175,1);
+     --borderleft7 : rgba(116,184,73,1);
+     --borderleft8 : rgba(97,36,129,1);
+     --borderleft9 : rgba(242,150,37,1);
+     --borderleft10 : rgba(1,155,225,1);
+}
