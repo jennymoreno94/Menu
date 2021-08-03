@@ -4,36 +4,35 @@ function Menu() {
     for (i = 0; i < 10 ; i++ ) {
         let circuloPequeno = document.createElement("div")
         circuloPequeno.classList.add("circulo-pequeno")
-        circuloPequeno.classList.add(`num${i+1}`)
+        circuloPequeno.style.setProperty("border", `1px solid var(--border${i+1})`);
+        circuloPequeno.style.setProperty("margin", `var(--margin-circulo${i+1})`);
 
         let linea = document.createElement("div")
         linea.classList.add("linea")
-        linea.classList.add(`linea${i+1}`)
+        linea.style.setProperty("transform", `var(--transform-linea${i+1})`);
+        linea.style.setProperty("width", `var(--width-linea${i+1})`);
 
         let punto = document.createElement("div");
         punto.classList.add("punto");
-        punto.classList.add(`punto${i + 1}`);
+        punto.style.setProperty("transform", `var(--transform-punto${i+1})`);
+
         let boton = document.createElement("div")
         boton.classList.add("boton-agrupado")
-        boton.classList.add(`btn${i+1}`)
+        boton.style.setProperty("transform", `var(--transform-btn${i+1})`);
+
         let spanRombo =document.createElement("span")
         spanRombo.classList.add("rombo")
-        spanRombo.classList.add(`span${i+1}`)
-        spanRombo.classList.add(`class-color${i+1}`)
         spanRombo.style.setProperty(`background`, `var(--background${i+1})`);
+
         let h3Rombo =document.createElement("h3")
         h3Rombo.classList.add("text")
         let link =document.createElement("a")
         link.classList.add("button-href")
-        link.classList.add(`color${i+1}`)
-        link.classList.add(`class-color`)
         link.style.setProperty(`background`, `var(--background${i+1})`);
         
         let span =document.createElement("span")
         span.classList.add("flecha")
-        span.classList.add(`span${i+1}`)
-        span.classList.add(`classborder`)
-        span.style.setProperty(`border-left`,`34px solid var(--borderleft${i+1})`);
+        span.style.setProperty(`border-left`,`34px solid var(--border${i+1})`);
 
         let h3 =document.createElement("h3")
         h3.classList.add("texto")
