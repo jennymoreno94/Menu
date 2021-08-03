@@ -22,7 +22,7 @@ function Menu() {
 
         let spanRombo =document.createElement("span")
         spanRombo.classList.add("rombo")
-        spanRombo.style.setProperty(`background`, `var(--background${i+1})`);
+        spanRombo.style.setProperty(`background`, `var(--background-rombo${i+1})`);
 
         let h3Rombo =document.createElement("h3")
         h3Rombo.classList.add("text")
