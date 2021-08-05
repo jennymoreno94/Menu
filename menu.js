@@ -13,6 +13,11 @@ let TituloBoton = Object.freeze({
     titulo10:"LIBROS DE SUPERACIÓN"
 })
 
+let Href = Object.freeze({
+
+    href8:"./disposicion_en_minutos.html",
+    href9:"./matematicas_interactivas_para_ninos.html"
+})
 function Menu() {
     for (i = 0; i < 10 ; i++ ) {
         let circuloPequeno = document.createElement("div")
@@ -42,6 +47,8 @@ function Menu() {
         let link =document.createElement("a")
         link.classList.add("button-href")
         link.style.setProperty(`background`, `var(--background${i+1})`);
+        link.href = Href[`href${i+1}`];
+
         
         let span =document.createElement("span")
         span.classList.add("flecha")
@@ -60,6 +67,7 @@ function Menu() {
         link.appendChild(h3)
         spanRombo.appendChild(h3Rombo)
         h3.innerHTML = TituloBoton[`titulo${i+1}`];
+    
         h3Rombo.innerHTML = i+1;
     }   
 }
