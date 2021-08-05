@@ -1,7 +1,8 @@
 @import 'propiedades.css';
 .circulo-completo {
-    margin: 250px;
+    margin:  250px 24px;
     width: 100%;
+    border: 1px solid red
 }
 
 .circle-menu {
@@ -167,11 +168,11 @@ p {
     color: white;
     position: relative;
     overflow: hidden;
-    padding: 4px;
-    top: 37%;
+    top: 78%;
     transform: translateY(-111%) rotate(314deg);
     font-size: 17px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .rombo {
@@ -189,4 +190,21 @@ p {
     margin-top: -6px;
     z-index: 1;
     background: var(--background1)
+}
+
+
+
+.rojo {
+    background-image: url(../img/fondo.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-bottom: solid 20px white;
+    border-left: solid 20px white;
+    border-right: solid 20px white;
+}
+
+@media (min-width: 576px){
+.modal-dialog {
+    max-width: 1060px;
+    margin: 1.75rem auto;}
 }
