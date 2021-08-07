@@ -22,7 +22,7 @@ function Menu() {
     for (i = 0; i < 10 ; i++ ) {
         let circuloPequeno = document.createElement("div")
         circuloPequeno.classList.add("circulo-pequeno")
-        circuloPequeno.style.setProperty("border", `1px solid var(--border${i+1})`);
+        circuloPequeno.style.setProperty("border", `0.06em solid var(--border${i+1})`);
         circuloPequeno.style.setProperty("margin", `var(--margin-circulo${i+1})`);
 
         let linea = document.createElement("div")
@@ -52,7 +52,7 @@ function Menu() {
         
         let span =document.createElement("span")
         span.classList.add("flecha")
-        span.style.setProperty(`border-left`,`34px solid var(--border${i+1})`);
+        span.style.setProperty(`border-left`,`2.125em solid var(--border${i+1})`);
 
         let h3 =document.createElement("h3")
         h3.classList.add("texto")
